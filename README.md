@@ -1,4 +1,4 @@
-dcm & nii
+Segmentation: dcm <==> nii
 ======
 数据标注工作在前端完成后, 标注的数据会被储存成`.dcm`的格式, 需要把dicom文件转换成
 `.nii`的NIFTI文件方便模型训练特征提取以及可视化工作.
